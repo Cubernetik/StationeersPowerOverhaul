@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "msbuild: Restore",
+      "type": "shell",
+      "command": "msbuild",
+      "args": [
+        "${workspaceFolder}/PowerOverhaul.csproj",
+        "/t:Restore"
+      ],
+      "options": {
+        "env": {
+          "MSBuildSDKsPath": "/usr/lib/mono/msbuild/Current/bin/Sdks"
+        }
+      },
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "msbuild: Build Release",
+      "type": "shell",
+      "dependsOn": "msbuild: Restore",
+      "command": "msbuild",
+      "args": [
+        "${workspaceFolder}/PowerOverhaul.csproj",
+        "/p:Configuration=Release"
+      ],
+      "options": {
+        "env": {
+          "MSBuildSDKsPath": "/usr/lib/mono/msbuild/Current/bin/Sdks"
+        }
+      },
+      "problemMatcher": "$msCompile",
+      "group": { "kind": "build", "isDefault": true }
+    }
+  ]
+}

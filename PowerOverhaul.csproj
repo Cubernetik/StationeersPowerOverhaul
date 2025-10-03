@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GameDir>/mnt/data/Games/Steam/steamapps/common/Stationeers</GameDir>
+    <Managed>$(GameDir)/rocketstation_Data/Managed</Managed>
+    <BepInEx>$(GameDir)/BepInEx/core</BepInEx>
+	<FrameworkPathOverride>/usr/lib/mono/4.8-api</FrameworkPathOverride>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<Reference Include="netstandard">
+	  <HintPath>$(Managed)/netstandard.dll</HintPath>
+	  <Private>false</Private>
+	</Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(Managed)/Assembly-CSharp.dll</HintPath>
+	  <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(Managed)/UnityEngine.dll</HintPath>
+	  <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(Managed)/UnityEngine.CoreModule.dll</HintPath>
+	  <Private>false</Private>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>$(BepInEx)/BepInEx.dll</HintPath>
+	  <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(BepInEx)/0Harmony.dll</HintPath>
+	  <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

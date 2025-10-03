@@ -1,0 +1,10 @@
+{
+  "omnisharp.useGlobalMono": "always",
+  "omnisharp.enableRoslynAnalyzers": true,
+
+  "omnisharp.enableEditorConfigSupport": true,
+
+  // Reduce noise if OmniSharp looks for modern dotnet
+  "csharp.suppressDotnetRestoreNotification": true,
+  "dotnet.codeLens.enableReferencesCodeLens": true
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>PowerOverhaul</Name>
+  <Author>XaraLoft</Author>
+  <Version>0.123456.78</Version>
+  <Description>Power consumption overhaul for PressureRegulator, BackPressureRegulator and VolumePumpt to scale them down as needed.</Description>
+</ModMetadata>
