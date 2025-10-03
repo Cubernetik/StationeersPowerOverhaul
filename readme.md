@@ -3,7 +3,7 @@
 > Because plumbing should not need its own power plant.
 
 **Power Overhaul** is a Stationeers mod that brings sanity back to the power consumption of gas devices.  
-The mod scales down the power usage of atmospheric devices on a configureable scale from 5% to 100%.
+Allows to configure the power usage of atmospheric devices on a scale from 5% to 100%.
 
 This repository is only required if you want to work on the mod. If you just want to use the mod you
 just need to subscribe the mod here https://steamcommunity.com/sharedfiles/filedetails/?id=3579306377.
@@ -25,7 +25,7 @@ just need to subscribe the mod here https://steamcommunity.com/sharedfiles/filed
 ## 🧩 Dependencies
 
 - BepInEx 5.4 or newer (https://github.com/BepInEx/BepInEx/)
-- Stationeers LaunchPad 0.2.12 or newer (https://github.com/StationeersLaunchPad/StationeersLaunchPad/)
+- Stationeers LaunchPad 0.2 or newer (https://github.com/StationeersLaunchPad/StationeersLaunchPad/)
 - Stationeers game (Terrain update)
 - Works on Windows, Linux, and Steam Deck
 

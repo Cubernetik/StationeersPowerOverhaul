@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>PowerOverhaul</Name>
-  <Author>XaraLoft</Author>
-  <Version>0.123456.78</Version>
-  <Description>Power consumption overhaul for PressureRegulator, BackPressureRegulator, VolumePump and GasMixer to scale them down as needed.
-The source code of the mod can be found at https://github.com/Cubernetik/StationeersPowerOverhaul.
+  <Author>Cubernetik</Author>
+  <Version>0.1.1</Version>
+  <Description>[h1]Because plumbing should not need its own power plant.[/h1]
+    Brings sanity back to the power consumption of the gas devices PressureRegulator, BackPressureRegulator, VolumePump and GasMixer.
+
+    Allows configuration for the power usage on a scale from 5% to 100%.
+
+    The source code of the mod can be found on https://github.com/Cubernetik/StationeersPowerOverhaul.
+
+    [h1]Features[/h1]
+    [list]
+    [*]🔋 Scales power consumption for Pressure Regulator, Back Pressure Regulator, Volume Pump and Gas Mixer
+    [*]⚙️ Power draw scaling is configurable via the in-game Mod Settings UI or via a config file.
+    [*]🧮 Adjusts both runtime usage and logic-reported power values for accurate readings.
+    [/list]
+
+    [h1]Dependencies[/h1]
+    [list]
+    [*]BepInEx 5.4 or newer https://github.com/BepInEx/BepInEx
+    [*]Stationeers LaunchPad 0.2 or newer https://github.com/StationeersLaunchPad/StationeersLaunchPad/
+    [*]Stationeers game (Terrain update)
+    [/list]
   </Description>
+  <InGameDescription>
+<![CDATA[<size="30"><color=#ffa500> PowerOverhaul </color></size>
+Because plumbing should not need its own power plant.
+Brings sanity back to the power consumption of the gas devices PressureRegulator, BackPressureRegulator, VolumePump and GasMixer.
+Allows configuration for the power usage on a scale from 5% to 100%.
+Not tested for Stationeers pre Terrain update.
+Depends on BepInEx 5.4 or newer (https://github.com/BepInEx/BepInEx/) and Stationeers LaunchPad 0.2 or newer (https://github.com/StationeersLaunchPad/StationeersLaunchPad/)]]>
+  </InGameDescription>
+  <WorkshopHandle>3579306377</WorkshopHandle>
 </ModMetadata>
