@@ -3,5 +3,7 @@
   <Name>PowerOverhaul</Name>
   <Author>XaraLoft</Author>
   <Version>0.123456.78</Version>
-  <Description>Power consumption overhaul for PressureRegulator, BackPressureRegulator and VolumePumpt to scale them down as needed.</Description>
+  <Description>Power consumption overhaul for PressureRegulator, BackPressureRegulator, VolumePump and GasMixer to scale them down as needed.
+The source code of the mod can be found at https://github.com/Cubernetik/StationeersPowerOverhaul.
+  </Description>
 </ModMetadata>

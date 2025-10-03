@@ -6,7 +6,7 @@
 The mod scales down the power usage of atmospheric devices on a configureable scale from 5% to 100%.
 
 This repository is only required if you want to work on the mod. If you just want to use the mod you
-can do so with the Steam Workshop.
+just need to subscribe the mod here https://steamcommunity.com/sharedfiles/filedetails/?id=3579306377.
 
 ---
 
